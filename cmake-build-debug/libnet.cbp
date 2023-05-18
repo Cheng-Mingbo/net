@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libnet"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\network\;CMake Files\src\util\;CMake Files\tests\;CMake Files\third_party\;CMake Files\third_party\spdlog\;CMake Files\third_party\spdlog\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/libnet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libnet">
+				<Option output="/tmp/libnet/cmake-build-debug/libnet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 libnet"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libnet/fast">
+				<Option output="/tmp/libnet/cmake-build-debug/libnet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 libnet/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/tmp/libnet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/libnet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/libnet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network">
+				<Option output="/tmp/libnet/cmake-build-debug/src/network/libnetwork.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/src/network"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/network/Makefile&quot;  VERBOSE=1 network"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/network/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/network/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/network/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network/fast">
+				<Option output="/tmp/libnet/cmake-build-debug/src/network/libnetwork.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/src/network"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/network/Makefile&quot;  VERBOSE=1 network/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/network/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/network/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/network/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util">
+				<Option output="/tmp/libnet/cmake-build-debug/src/util/libutil.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/src/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/util/Makefile&quot;  VERBOSE=1 util"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util/fast">
+				<Option output="/tmp/libnet/cmake-build-debug/src/util/libutil.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/src/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/util/Makefile&quot;  VERBOSE=1 util/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/src/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Acceptor">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_Acceptor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_Acceptor"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Acceptor/fast">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_Acceptor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_Acceptor/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Buffer">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_Buffer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_Buffer"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Buffer/fast">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_Buffer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_Buffer/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_EventLoop">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_EventLoop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_EventLoop"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_EventLoop/fast">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_EventLoop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_EventLoop/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_InetAddress">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_InetAddress" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_InetAddress"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_InetAddress/fast">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_InetAddress" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_InetAddress/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Server">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_Server"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Server/fast">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_Server/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Socket">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_Socket" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_Socket"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_Socket/fast">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_Socket" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_Socket/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_connection">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_connection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_connection"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_connection/fast">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_connection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_connection/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_timer">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_timer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_timer"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_timer/fast">
+				<Option output="/tmp/libnet/cmake-build-debug/tests/test_timer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test_timer/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spdlog">
+				<Option output="/tmp/libnet/cmake-build-debug/third_party/spdlog/libspdlogd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/third_party/spdlog"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/third_party/spdlog/Makefile&quot;  VERBOSE=1 spdlog"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/third_party/spdlog/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/third_party/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/third_party/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spdlog/fast">
+				<Option output="/tmp/libnet/cmake-build-debug/third_party/spdlog/libspdlogd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/libnet/cmake-build-debug/third_party/spdlog"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/tmp/libnet/include"/>
+					<Add directory="/tmp/libnet/include/network"/>
+					<Add directory="/tmp/libnet/include/util"/>
+					<Add directory="/tmp/libnet/third_party/spdlog/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/aarch64-unknown-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed/aarch64-linux-gnu"/>
+					<Add directory="/usr/local/lib/gcc/aarch64-unknown-linux-gnu/13.1.0/include-fixed"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/third_party/spdlog/Makefile&quot;  VERBOSE=1 spdlog/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/third_party/spdlog/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/third_party/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/libnet/cmake-build-debug/third_party/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/libnet/main.cpp">
+			<Option target="libnet"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/network/acceptor.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/network/channel.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/network/connection.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/network/epoll.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/network/event_loop.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/network/event_loop_thread.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/network/event_loop_threadpool.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/network/inet_address.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/network/server.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/network/socket.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/network/timer.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/network/timer_queue.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/util/Timestamp.cpp">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/util/buffer.cpp">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/util/logger.cpp">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/util/threadpool.cpp">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/tests/test_Acceptor.cpp">
+			<Option target="test_Acceptor"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/tests/test_Buffer.cpp">
+			<Option target="test_Buffer"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/tests/test_EventLoop.h.cpp">
+			<Option target="test_EventLoop"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/tests/test_InetAddress.cpp">
+			<Option target="test_InetAddress"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/tests/test_Server.cpp">
+			<Option target="test_Server"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/tests/test_Socket.cpp">
+			<Option target="test_Socket"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/tests/test_connection.cpp">
+			<Option target="test_connection"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/tests/test_timer.cpp">
+			<Option target="test_timer"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/async.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/async_logger-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/async_logger.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/common-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/common.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/backtracer-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/backtracer.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/circular_q.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/console_globals.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/file_helper-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/file_helper.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/fmt_helper.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/log_msg-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/log_msg.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/log_msg_buffer-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/log_msg_buffer.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/mpmc_blocking_q.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/null_mutex.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/os-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/os.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/periodic_worker-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/periodic_worker.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/registry-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/registry.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/synchronous_factory.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/tcp_client-windows.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/tcp_client.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/thread_pool-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/thread_pool.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/udp_client-windows.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/udp_client.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/details/windows_include.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bin_to_hex.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bundled/args.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bundled/chrono.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bundled/color.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bundled/compile.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bundled/core.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bundled/format-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bundled/format.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bundled/locale.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bundled/os.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bundled/ostream.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bundled/printf.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bundled/ranges.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bundled/std.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/bundled/xchar.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/chrono.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/compile.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/fmt.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/ostr.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/ranges.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/std.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fmt/xchar.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/formatter.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/fwd.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/logger-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/logger.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/pattern_formatter-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/pattern_formatter.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/android_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/ansicolor_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/base_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/base_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/basic_file_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/basic_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/callback_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/daily_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/dist_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/dup_filter_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/hourly_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/kafka_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/mongo_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/msvc_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/null_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/ostream_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/qt_sinks.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/ringbuffer_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/rotating_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/stdout_color_sinks.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/stdout_sinks-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/stdout_sinks.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/syslog_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/systemd_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/tcp_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/udp_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/win_eventlog_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/wincolor_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/sinks/wincolor_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/spdlog-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/spdlog.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/stopwatch.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/tweakme.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/include/spdlog/version.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/src/async.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/src/bundled_fmtlib_format.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/src/cfg.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/src/color_sinks.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/src/file_sinks.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/src/spdlog.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/src/stdout_sinks.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/network/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\network\"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/src/util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\util\"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\spdlog\"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/cmake/ide.cmake">
+			<Option virtualFolder="CMake Files\third_party\spdlog\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/libnet/third_party/spdlog/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\third_party\spdlog\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

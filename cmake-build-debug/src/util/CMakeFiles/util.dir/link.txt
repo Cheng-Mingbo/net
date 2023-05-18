@@ -1,0 +1,2 @@
+/usr/bin/ar qc libutil.a CMakeFiles/util.dir/Timestamp.cpp.o CMakeFiles/util.dir/buffer.cpp.o CMakeFiles/util.dir/logger.cpp.o CMakeFiles/util.dir/threadpool.cpp.o
+/usr/bin/ranlib libutil.a

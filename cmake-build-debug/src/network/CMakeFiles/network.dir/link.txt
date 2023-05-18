@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnetwork.a CMakeFiles/network.dir/acceptor.cpp.o CMakeFiles/network.dir/channel.cpp.o CMakeFiles/network.dir/connection.cpp.o CMakeFiles/network.dir/epoll.cpp.o CMakeFiles/network.dir/event_loop.cpp.o CMakeFiles/network.dir/event_loop_thread.cpp.o CMakeFiles/network.dir/event_loop_threadpool.cpp.o CMakeFiles/network.dir/inet_address.cpp.o CMakeFiles/network.dir/server.cpp.o CMakeFiles/network.dir/socket.cpp.o CMakeFiles/network.dir/timer.cpp.o CMakeFiles/network.dir/timer_queue.cpp.o
+/usr/bin/ranlib libnetwork.a

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test_Acceptor.dir/test_Acceptor.cpp.o -o test_Acceptor  ../src/network/libnetwork.a ../src/util/libutil.a ../third_party/spdlog/libspdlogd.a 

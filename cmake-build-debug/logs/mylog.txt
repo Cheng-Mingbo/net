@@ -1,0 +1,14 @@
+[2023-05-13 06:05:59.119] [info] [thread 1] Hello, World! (: )
+[2023-05-13 06:06:56.696] [info] [thread 1] Hello, World!
+[2023-05-13 06:08:22.323] [info] [thread 1] Hello, World!
+[2023-05-13 06:52:21.136] [info] [thread 1] Hello, World!
+[2023-05-13 09:03:44.008] [error] [thread 1] Socket::setReusePort
+[2023-05-13 09:03:44.008] [error] [thread 1] Socket::bindAddress
+[2023-05-13 09:03:44.008] [error] [thread 1] Socket::listen
+[2023-05-13 09:03:44.008] [error] [thread 1] Socket::accept, errno: %d info: %s
+[2023-05-13 09:03:44.008] [error] [thread 1] Socket::shutdownWrite
+[2023-05-13 09:04:31.250] [error] [thread 1] Socket::setReusePort
+[2023-05-13 09:04:31.250] [error] [thread 1] Socket::bindAddress
+[2023-05-13 09:04:31.250] [error] [thread 1] Socket::listen
+[2023-05-13 09:04:31.250] [error] [thread 1] Socket::accept, errno: %d info: %s
+[2023-05-13 09:04:31.250] [error] [thread 1] Socket::shutdownWrite

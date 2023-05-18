@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test_Server.dir/test_Server.cpp.o -o test_Server  ../src/network/libnetwork.a ../src/util/libutil.a ../third_party/spdlog/libspdlogd.a 

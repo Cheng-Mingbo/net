@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test_Socket.dir/test_Socket.cpp.o -o test_Socket  ../src/network/libnetwork.a ../src/util/libutil.a ../third_party/spdlog/libspdlogd.a 
